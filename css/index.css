@@ -61,6 +61,7 @@
   text-align: center;
   background-color: white;
   box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+  z-index: 3;
 }
 /* элементы меню */
 .menu__item {

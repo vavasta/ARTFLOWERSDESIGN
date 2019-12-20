@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="../css/services.css" />
     <link rel="stylesheet" href="../css/locations.css" />
     <link rel="stylesheet" href="../css/contact.css" />
-    <script src="../index.js"></script>
   </head>
   <body>
     <div class="contact_container">
@@ -24,7 +23,7 @@
             <li><a class="menu__item" href="locations.html">Locations</a></li>
             <li><a class="menu__item" href="#">Contact</a></li>
             <li><a class="menu__item" href="aboutus.html">About Us</a></li>
-            <li><a class="menu__item" href="#">Gallery</a></li>
+            <li><a class="menu__item" href="gallery.html">Gallery</a></li>
           </ul>
         </div>
         <div class="english"><span class="english_text">En</span></div>
@@ -66,11 +65,7 @@
               - <br />
               Send us an email
             </h3>
-            <form
-              name="myForm"
-              onsubmit="return InputValidation()"
-              method="POST"
-            >
+            <form name="myForm">
               <div class="auth">
                 <div class="firstname">
                   <input
@@ -79,7 +74,9 @@
                     placeholder="First Name"
                     id="firstname"
                   />
+                  <span id="firstname__error">This field is required</span>
                 </div>
+
                 <div class="lastname">
                   <input
                     type="text"
@@ -87,24 +84,36 @@
                     placeholder="Last Name"
                     id="lastname"
                   />
+                  <span id="lastname__error">This field is required</span>
                 </div>
               </div>
               <div class="authtwo">
                 <div class="email">
                   <input
-                    type="text"
-                    name="fname"
+                    type="email"
+                    name="email"
                     placeholder="Email"
                     id="email"
                   />
+                  <span class="form__error"
+                    >Это поле должно содержать E-Mail в формате
+                    example@site.com</span
+                  >
+                  <span id="email__error">This field is required</span>
                 </div>
+
                 <div class="telephone">
                   <input
-                    type="text"
+                    type="tel"
                     name="fname"
                     placeholder="Telephone"
+                    pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                    minlength="18"
+                    maxlength="18"
                     id="telephone"
                   />
+                  <span class="form__error">Формат +3 (123) 456-78-90</span>
+                  <span id="telephone__error">This field is required</span>
                 </div>
               </div>
               <h3>Please specify the reason of contact...</h3>
@@ -122,11 +131,16 @@
                   placeholder="Hey, whasssssup"
                   id="text"
                 />
+                <span id="text__error">This field is required</span>
               </div>
 
-              <div class="button" type="submit">
-                <input type="submit" value="Submit" />
+              <div class="submit">
+                <input type="submit" id="submit" value="Submit" />
               </div>
+              <span class="bottomerror" id="bottomerror"
+                >One or more fields have an error.Please check and try
+                again</span
+              >
             </form>
           </div>
           <div class="white_background_two">
@@ -141,5 +155,6 @@
 
       <div class="bottomc"><h3>© Art Flowers Gallery 2019</h3></div>
     </div>
+    <script src="../index.js"></script>
   </body>
 </html>

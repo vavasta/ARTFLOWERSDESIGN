@@ -50,10 +50,95 @@ select {
   padding-left: 10px;
   padding-right: 10px;
 }
+input[type="email"] {
+  border: none;
+  border-bottom: 2px solid black;
+}
+input[type="tel"] {
+  border: none;
+  border-bottom: 2px solid black;
+}
 .button {
   display: flex;
   justify-content: center;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 60px;
+}
+.form__error {
+  color: red;
+  text-align: left;
+  font-size: 12px;
+  display: block;
+  margin-top: 3px;
+  display: none;
+}
+input:valid:not(:placeholder-shown) {
+  border-color: green;
+}
+
+input:invalid:not(:placeholder-shown) {
+  border-color: red;
+}
+input:invalid:not(:placeholder-shown) + .form__error {
+  display: block;
+}
+.bottomerror {
+  color: red;
+  text-align: left;
+  font-size: 12px;
+  display: block;
+  margin: 0 auto;
+  display: none;
+  text-align: center;
+  padding-top: 10px;
+}
+.submit {
+  padding-top: 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+#submit {
+  border: 2px solid black;
+}
+#firstname__error {
+  color: red;
+  text-align: left;
+  font-size: 12px;
+  display: block;
+  margin-top: 3px;
+  display: none;
+}
+#lastname__error {
+  color: red;
+  text-align: left;
+  font-size: 12px;
+  display: block;
+  margin-top: 3px;
+  display: none;
+}
+#email__error {
+  color: red;
+  text-align: left;
+  font-size: 12px;
+  display: block;
+  margin-top: 3px;
+  display: none;
+}
+#telephone__error {
+  color: red;
+  text-align: left;
+  font-size: 12px;
+  display: block;
+  margin-top: 3px;
+  display: none;
+}
+#text__error {
+  color: red;
+  text-align: left;
+  font-size: 12px;
+  display: block;
+  margin-top: 3px;
+  display: none;
 }

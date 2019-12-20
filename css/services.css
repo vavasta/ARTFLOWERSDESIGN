@@ -22,28 +22,44 @@
   margin: 0 auto;
   margin-top: 33px;
   max-width: 1230px;
+  padding-right: 5px;
   display: flex;
   justify-content: flex-end;
 }
 .services_top_logo img {
   max-width: 250px;
 }
+.menu__box {
+  margin-top: 37px;
+  display: block;
+  visibility: hidden;
+  min-width: 200px;
+  /* width: 613px; */
+  /* height: 230px; */
+  max-width: 50px;
+  list-style: none;
+  text-align: center;
+  background-color: white;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+}
 .services_center_text {
   margin: 0 auto;
-  max-width: 1230px;
+  max-width: 530px;
   display: flex;
   justify-content: center;
+  z-index: 1;
 }
 .services_center_text span {
-  margin-top: 50px;
+  padding-top: 40px;
   display: block;
   font-family: Cormorant;
-  font-size: 80px;
+  font-size: 4vw;
+  margin: 0 auto;
   font-weight: 1;
   letter-spacing: 18.07px;
 }
 .services_center_text_two {
-  padding-top: 20px;
   margin: 0 auto;
   max-width: 1230px;
   display: flex;
@@ -52,9 +68,10 @@
 }
 
 .services_center_text_two span {
+  padding-top: 40px;
   display: block;
   font-family: Cormorant;
-  font-size: 20px;
+  font-size: 1vw;
   line-height: 30px;
   font-weight: 10;
   letter-spacing: 2.07px;
@@ -115,7 +132,7 @@
 .white_background h3 {
   display: block;
   font-family: Cormorant;
-  font-size: 35px;
+  font-size: 2vw;
   font-weight: 1;
   letter-spacing: 8.07px;
   margin-left: 25px;
@@ -125,7 +142,7 @@
 .white_background h4 {
   display: block;
   font-family: Cormorant;
-  font-size: 20px;
+  font-size: 1vw;
   font-weight: 1;
   letter-spacing: 4.07px;
   margin-left: 25px;
@@ -135,7 +152,7 @@
 .white_background_two h3 {
   display: block;
   font-family: Cormorant;
-  font-size: 35px;
+  font-size: 2vw;
   font-weight: 1;
   letter-spacing: 8.07px;
   margin-left: 25px;
@@ -146,7 +163,7 @@
 .white_background_two h4 {
   display: block;
   font-family: Cormorant;
-  font-size: 20px;
+  font-size: 1vw;
   font-weight: 1;
   letter-spacing: 4.07px;
   margin-left: 25px;
@@ -213,7 +230,7 @@
 .white_bottom_background h3 {
   display: block;
   font-family: Cormorant;
-  font-size: 35px;
+  font-size: 2vw;
   font-weight: 1;
   letter-spacing: 8.07px;
   margin-left: 25px;
@@ -223,7 +240,7 @@
 .white_bottom_background h4 {
   display: block;
   font-family: Cormorant;
-  font-size: 20px;
+  font-size: 1vw;
   font-weight: 1;
   letter-spacing: 4.07px;
   margin-left: 25px;
@@ -233,7 +250,7 @@
 .white_bottom_background_two h3 {
   display: block;
   font-family: Cormorant;
-  font-size: 35px;
+  font-size: 2vw;
   font-weight: 1;
   letter-spacing: 8.07px;
   margin-left: 25px;
@@ -244,7 +261,7 @@
 .white_bottom_background_two h4 {
   display: block;
   font-family: Cormorant;
-  font-size: 20px;
+  font-size: 1vw;
   font-weight: 1;
   letter-spacing: 4.07px;
   margin-left: 25px;
