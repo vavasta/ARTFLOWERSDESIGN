@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/services.css" />
+    <link rel="stylesheet" href="../css/locations.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
+    <script src="../index.js"></script>
+  </head>
+  <body>
+    <div class="contact_container">
+      <div class="header">
+        <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+          <ul class="menu__box">
+            <li><a class="menu__item" href="./services.html">Services</a></li>
+            <li><a class="menu__item" href="locations.html">Locations</a></li>
+            <li><a class="menu__item" href="#">Contact</a></li>
+            <li><a class="menu__item" href="aboutus.html">About Us</a></li>
+            <li><a class="menu__item" href="#">Gallery</a></li>
+          </ul>
+        </div>
+        <div class="english"><span class="english_text">En</span></div>
+        <div class="italian"><span class="italian_text">It</span></div>
+      </div>
+      <div class="services_top_logo">
+        <img src="../img/_Art_Flowers_logo.png" alt="" />
+      </div>
+      <div class="services_center_text">
+        <span>Contact</span>
+      </div>
+      <div class="services_center_text_two">
+        <span
+          >Sed ut perspiciatis unde omnis iste natus error sit <br />
+          voluptatem accusantium</span
+        >
+      </div>
+      <div class="services_center_wedding">Let’s chat</div>
+      <div class="services_center_img">
+        <div class="img_container_right">
+          <div class="white_background">
+            <h4>
+              Arlene Verde <br />
+              Managing Director<br />
+              +39 347 478 27 87
+            </h4>
+          </div>
+          <div class="white_background">
+            <h4>
+              Antonio Francesco Doppiu Anfossi <br />
+              Creative Director<br />
+              +39 324 994 51 75
+            </h4>
+          </div>
+        </div>
+        <div class="img_container_left">
+          <div class="white_background_two">
+            <h3>
+              - <br />
+              Send us an email
+            </h3>
+            <form
+              name="myForm"
+              onsubmit="return InputValidation()"
+              method="POST"
+            >
+              <div class="auth">
+                <div class="firstname">
+                  <input
+                    type="text"
+                    name="fname"
+                    placeholder="First Name"
+                    id="firstname"
+                  />
+                </div>
+                <div class="lastname">
+                  <input
+                    type="text"
+                    name="fname"
+                    placeholder="Last Name"
+                    id="lastname"
+                  />
+                </div>
+              </div>
+              <div class="authtwo">
+                <div class="email">
+                  <input
+                    type="text"
+                    name="fname"
+                    placeholder="Email"
+                    id="email"
+                  />
+                </div>
+                <div class="telephone">
+                  <input
+                    type="text"
+                    name="fname"
+                    placeholder="Telephone"
+                    id="telephone"
+                  />
+                </div>
+              </div>
+              <h3>Please specify the reason of contact...</h3>
+              <div class="select">
+                <select>
+                  <option>Пункт 1</option>
+                  <option>Пункт 2</option>
+                </select>
+              </div>
+              <h3>Message</h3>
+              <div class="text">
+                <input
+                  type="text"
+                  name="fname"
+                  placeholder="Hey, whasssssup"
+                  id="text"
+                />
+              </div>
+
+              <div class="button" type="submit">
+                <input type="submit" value="Submit" />
+              </div>
+            </form>
+          </div>
+          <div class="white_background_two">
+            <h3>
+              Massimo Mou <br />Floral Manager <br />
+              +39 327 034 66 75
+            </h3>
+            <a href="https://flowers.ua/">https://flowers.ua/</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottomc"><h3>© Art Flowers Gallery 2019</h3></div>
+    </div>
+  </body>
+</html>

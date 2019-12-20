@@ -1,0 +1,8 @@
+.locations_container {
+  height: 6500px;
+  background-size: cover;
+  background-position: top;
+  background-image: url(../img/donetwo.png);
+
+  z-index: 1;
+}

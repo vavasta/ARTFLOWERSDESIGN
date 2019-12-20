@@ -1,0 +1,59 @@
+.contact_container {
+  height: 6500px;
+  background-size: cover;
+  background-position: top;
+  background-image: url(../img/donetwo.png);
+
+  z-index: 1;
+}
+input[type="text"] {
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.auth {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.authtwo {
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.firstname {
+  padding-left: 10px;
+}
+.lastname {
+  padding-left: 10px;
+}
+
+.email {
+  padding-left: 10px;
+}
+
+.telephone {
+  padding-left: 10px;
+}
+select {
+  width: 30em;
+}
+.select {
+  padding-left: 30px;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 60px;
+}
