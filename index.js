@@ -28,6 +28,9 @@ function FirstNameValidation(e) {
   e.preventDefault();
   if (firstname.value == "") {
     firstnameerror.style.display = "block";
+  } else {
+    firstnameerror.style.display = "none";
+    firstname.value = "";
   }
 }
 
@@ -35,23 +38,35 @@ function LastNameValidation(e) {
   e.preventDefault();
   if (lastname.value == "") {
     lastnameerror.style.display = "block";
+  } else {
+    lastnameerror.style.display = "none";
+    lastname.value = "";
   }
 }
 function EmailValidation(e) {
   e.preventDefault();
   if (email.value == "") {
     emailerror.style.display = "block";
+  } else {
+    emailerror.style.display = "none";
+    email.value = "";
   }
 }
 function TelephoneValidation(e) {
   e.preventDefault();
   if (telephone.value == "") {
     telephoneerror.style.display = "block";
+  } else {
+    telephoneerror.style.display = "none";
+    telephone.value = "";
   }
 }
 function TextValidation(e) {
   e.preventDefault();
   if (text.value == "") {
     texterror.style.display = "block";
+  } else {
+    texterror.style.display = "none";
+    text.value = "";
   }
 }

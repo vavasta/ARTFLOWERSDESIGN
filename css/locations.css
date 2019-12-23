@@ -6,3 +6,284 @@
 
   z-index: 1;
 }
+.locations_center_text {
+  margin: 0 auto;
+  max-width: 530px;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+.locations_center_text span {
+  padding-top: 45px;
+  display: block;
+  font-family: Cormorant;
+  font-size: 4vw;
+  margin: 0 auto;
+  font-weight: 1;
+  letter-spacing: 20.07px;
+}
+.locations_center_text_two {
+  margin: 0 auto;
+  max-width: 1230px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.locations_center_text_two span {
+  padding-top: 28px;
+  display: block;
+  font-family: Cormorant;
+  font-size: 1vw;
+  line-height: 25px;
+  font-weight: 10;
+  letter-spacing: 2.9px;
+}
+.locations_center_wedding {
+  display: flex;
+  justify-content: center;
+  max-width: 1230px;
+  padding-top: 74px;
+  margin: 0 auto;
+  font-family: Cormorant;
+  font-size: 50px;
+  font-weight: 1;
+  letter-spacing: 14.07px;
+  z-index: 1;
+}
+.locations_white_background {
+  background-color: white;
+  max-width: 617px;
+  width: 100%;
+}
+.locations_white_background h3 {
+  display: block;
+  font-family: Cormorant;
+  font-size: 1.8vw;
+  font-weight: 1;
+  letter-spacing: 4.5px;
+  line-height: 2.5vw;
+  margin-left: 37px;
+  margin-top: 23px;
+  padding-right: 300px;
+}
+
+.locations_white_background h4 {
+  display: block;
+  font-family: Cormorant;
+  font-size: 0.8vw;
+  font-weight: 1;
+  letter-spacing: 6.07px;
+  margin-left: 37px;
+  margin-top: 38px;
+  margin-bottom: 90px;
+  padding-right: 200px;
+  line-height: 2.9vh;
+}
+.locations_white_background_two {
+  background-color: white;
+  max-width: 617px;
+  width: 100%;
+}
+.locations_white_background_two h3 {
+  display: block;
+  font-family: Cormorant;
+  font-size: 1.8vw;
+  font-weight: 1;
+  letter-spacing: 4.5px;
+  line-height: 2.5vw;
+  margin-left: 37px;
+  margin-top: 20px;
+  padding-right: 300px;
+}
+
+.locations_white_background_two h4 {
+  display: block;
+  font-family: Cormorant;
+  font-size: 0.85vw;
+  font-weight: 1;
+  letter-spacing: 4.07px;
+  margin-left: 37px;
+  margin-top: 27px;
+  margin-bottom: 90px;
+  padding-right: 200px;
+  line-height: 2.9vh;
+}
+.locations_white_background_three h3 {
+  display: block;
+  font-family: Cormorant;
+  font-size: 1.8vw;
+  font-weight: 1;
+  letter-spacing: 0.2vw;
+  margin-left: 20px;
+  margin-top: 5px;
+  line-height: 2.6vw;
+}
+
+.locations_white_background_three h4 {
+  display: block;
+  font-family: Cormorant;
+  font-size: 0.98vw;
+  font-weight: 1;
+  letter-spacing: 0.13vw;
+  margin-left: 20px;
+  margin-top: 26px;
+  line-height: 1.55vw;
+  margin-bottom: 75px;
+}
+.locations_white_background_three {
+  background-color: white;
+  max-width: 610px;
+
+  width: 100%;
+}
+.locations_bottom_res {
+  display: flex;
+  justify-content: center;
+  max-width: 1230px;
+  padding-top: 155px;
+  margin: 0 auto;
+  font-family: Cormorant;
+  font-size: 2.5vw;
+  font-weight: 1;
+  letter-spacing: 14.7px;
+  line-height: 3.2vw;
+  z-index: 1;
+  text-align: center;
+}
+.locations_white_bottom_background_four {
+  background-color: white;
+  max-width: 610px;
+
+  width: 100%;
+}
+.locations_white_bottom_background_four h3 {
+  display: block;
+  font-family: Cormorant;
+  font-size: 1.8vw;
+  font-weight: 1;
+  letter-spacing: 0.31vw;
+  margin-left: 30px;
+  padding-right: 290px;
+
+  line-height: 2.7vw;
+}
+
+.locations_white_bottom_background_four h4 {
+  display: block;
+  font-family: Cormorant;
+  font-size: 0.8vw;
+  font-weight: 1;
+  letter-spacing: 6.07px;
+  margin-left: 37px;
+  margin-top: 35px;
+  margin-bottom: 90px;
+  padding-right: 200px;
+  line-height: 2.9vh;
+}
+.locations_white_bottom_background_five {
+  background-color: white;
+  max-width: 617px;
+  width: 100%;
+}
+.locations_white_bottom_background_five h3 {
+  display: block;
+  font-family: Cormorant;
+  font-size: 1.8vw;
+  font-weight: 1;
+  letter-spacing: 4.5px;
+  line-height: 2.5vw;
+  margin-left: 37px;
+  margin-top: 15px;
+  padding-right: 300px;
+}
+
+.locations_white_bottom_background_five h4 {
+  display: block;
+  font-family: Cormorant;
+  font-size: 0.85vw;
+  font-weight: 1;
+  letter-spacing: 4.07px;
+  margin-left: 37px;
+  margin-top: 27px;
+  margin-bottom: 90px;
+  padding-right: 200px;
+  line-height: 2.9vh;
+}
+.locations_white_background_six h3 {
+  display: block;
+  font-family: Cormorant;
+  font-size: 1.8vw;
+  font-weight: 1;
+  letter-spacing: 0.2vw;
+  margin-left: 20px;
+  margin-top: 40px;
+  line-height: 2.6vw;
+}
+
+.locations_white_background_six h4 {
+  display: block;
+  font-family: Cormorant;
+  font-size: 0.98vw;
+  font-weight: 1;
+  letter-spacing: 0.13vw;
+  margin-left: 20px;
+  margin-top: 26px;
+  line-height: 1.55vw;
+  margin-bottom: 75px;
+}
+.locations_white_background_six {
+  background-color: white;
+  max-width: 610px;
+
+  width: 100%;
+}
+.locations_bottomc {
+  text-align: center;
+  padding-top: 1122px;
+  font-weight: 1;
+  letter-spacing: 0.13vw;
+  font-size: 0.78vw;
+}
+@media (max-width: 970px) {
+  .locations_white_background h3 {
+    font-size: 5vw;
+    line-height: 5vh;
+  }
+  .locations_white_background h4 {
+    font-size: 3vw;
+    line-height: 3vh;
+  }
+  .locations_white_background_two h3 {
+    font-size: 5vw;
+    line-height: 5vh;
+  }
+  .locations_white_background_two h4 {
+    font-size: 2.5vw;
+    line-height: 3vh;
+  }
+  .locations_white_background_three h3 {
+    font-size: 5vw;
+    line-height: 5vh;
+  }
+  .locations_white_background_three h4 {
+    font-size: 2vw;
+    line-height: 3vh;
+  }
+  .locations_bottom_res {
+    font-size: 5vw;
+  }
+  .locations_center_text span {
+    font-size: 8vw;
+  }
+  .locations_center_text_two span {
+    font-size: 3vw;
+  }
+  .locations_bottom_res {
+    font-size: 8vw;
+  }
+  .locations_white_background_six h4 {
+    font-size: 2vw;
+    line-height: 3vh;
+  }
+}
